@@ -105,7 +105,7 @@ Hint: You will need to use the aggregation method to answer this.
 The first 5 rows of your resulting DataFrame should look something like this:
 
 
-![](Resourses/images/challenge12table.png)
+![](Resourses/images/challenge12table.PNG)
 
 _id	count
 0	Thanet	1130
