@@ -105,7 +105,7 @@ Hint: You will need to use the aggregation method to answer this.
 The first 5 rows of your resulting DataFrame should look something like this:
 
 
-![](Resourses/images/challenge12table.PNG)
+![](./Resourses/images/challenge12table.PNG)
 
 _id	count
 0	Thanet	1130
@@ -113,8 +113,10 @@ _id	count
 2	Maidstone	713
 3	Newham	711
 4	Swale	686
-Requirements
-Part 1: Database and Jupyter Notebook Set Up (15 points)
+
+## Requirements
+## Part 1: Database and Jupyter Notebook Set Up (15 points)
+
 To receive all points, your Jupyter notebook setup file must have all of the following:
 Include the mongoimport command text you used to import establishments.json in a markdown cell at the beginning of your Jupyter notebook file (3 points)
 
