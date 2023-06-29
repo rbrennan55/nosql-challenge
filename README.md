@@ -28,7 +28,7 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
 The magazine editors have some requested modifications for the database before you can perform any queries or analysis for them. Make the following changes to the establishments collection:
 
 An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:
-
+```python
 {
     "BusinessName":"Penang Flavours",
     "BusinessType":"Restaurant/Cafe/Canteen",
@@ -57,6 +57,7 @@ An exciting new halal restaurant just opened in Greenwich, but hasn't been rated
     "Distance":4623.9723280747176,
     "NewRatingPending":True
 }
+```
 Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
 
 Update the new restaurant with the BusinessTypeID you found.
@@ -102,6 +103,9 @@ How many establishments in each Local Authority area have a hygiene score of 0? 
 Hint: You will need to use the aggregation method to answer this.
 
 The first 5 rows of your resulting DataFrame should look something like this:
+
+
+![](Resourses/images/challenge12table.png)
 
 _id	count
 0	Thanet	1130
